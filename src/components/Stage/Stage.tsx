@@ -85,6 +85,16 @@ export const Stage: FC<Props> = ({ item, idx, setStages, isVisible }) => {
         ...prevState.slice(idx + 1),
       ]);
     }
+    if (!isCompleted && item.isStageCompleted === true) {
+      setStages((prevState) => [
+        ...prevState.slice(0, idx),
+        {
+          ...prevState[idx],
+          isStageCompleted: false,
+        },
+        ...prevState.slice(idx + 1),
+      ]);
+    }
   }, [isCompleted]);
 
   return (
