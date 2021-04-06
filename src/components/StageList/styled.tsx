@@ -5,7 +5,7 @@ export const StageListWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 20px auto;
-  width: 375px;
+  max-width: 350px;
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px 15px 10px 10px;
