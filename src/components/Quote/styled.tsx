@@ -12,9 +12,15 @@ export const QuoteWrapper = styled.div`
   align-items: center;
   z-index: 999;
 
-  & div {
+  & blockquote {
     background-color: white;
     padding: 30px;
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    & cite {
+      text-align: right;
+      width: 100%;
+    }
   }
 `;

@@ -22,7 +22,10 @@ export const Quote: FC<Props> = ({ quote, setQuote }) => {
 
   return (
     <QuoteWrapper>
-      <div ref={ref}>{quote.text}</div>
+      <blockquote ref={ref}>
+        {quote.text}
+        <br /> <cite>- {quote.source}</cite>
+      </blockquote>
     </QuoteWrapper>
   );
 };
