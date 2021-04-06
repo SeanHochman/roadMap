@@ -6,10 +6,10 @@ export const initialData: TaskType[] = [
     isStageCompleted: false,
 
     tasks: [
-      { description: 'meet with investors', completed: false },
-      { description: 'do something', completed: false },
-      { description: 'go to vegas', completed: false },
-      { description: 'profit', completed: false },
+      { description: 'Meet with investors', completed: false },
+      { description: 'Buy Dogecoins', completed: false },
+      { description: 'Go to vegas', completed: false },
+      { description: 'Ponder life', completed: false },
     ],
   },
   {
@@ -17,10 +17,10 @@ export const initialData: TaskType[] = [
     isStageCompleted: false,
 
     tasks: [
-      { description: 'do a thing', completed: false },
-      { description: 'do something else', completed: false },
-      { description: 'exercise', completed: false },
-      { description: 'profit', completed: false },
+      { description: 'Sell an NFT', completed: false },
+      { description: "Check Elon Musk's twitter", completed: false },
+      { description: 'Exercise', completed: false },
+      { description: 'Listen to Joe Rogan', completed: false },
     ],
   },
 ];
