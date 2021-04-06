@@ -1,5 +1,5 @@
-import { Layout } from './components/Layout';
+import { StageList } from './components/StageList';
 
-const App = () => <Layout />;
+const App = () => <StageList />;
 
 export default App;

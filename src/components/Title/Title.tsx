@@ -1,5 +1,5 @@
 import { TitleWrapper } from './styled';
 
 export const Title = () => {
-  return <TitleWrapper>Title </TitleWrapper>;
+  return <TitleWrapper>My Progress:</TitleWrapper>;
 };
