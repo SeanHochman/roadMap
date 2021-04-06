@@ -8,7 +8,7 @@ export const initialData: TaskType[] = [
     tasks: [
       { description: 'Meet with investors', completed: false },
       { description: 'Buy Dogecoins', completed: false },
-      { description: 'Go to vegas', completed: false },
+      { description: 'Go to Vegas', completed: false },
       { description: 'Ponder life', completed: false },
     ],
   },

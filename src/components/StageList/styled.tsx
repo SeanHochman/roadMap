@@ -16,6 +16,7 @@ const commonButtonStyles = css`
   outline: none;
   height: 30px;
   margin: 5px 0;
+  cursor: pointer;
 `;
 
 export const ResetButton = styled.button`
